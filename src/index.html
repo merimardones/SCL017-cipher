@@ -2,32 +2,49 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css" />
-     <title>"Servicio Nacional de la Mujer y la Equidad de Género"</title>        
+    <link rel="stylesheet" href="style.css" />  
+    <link href="https://fonts.googleapis.com/css2?family=Marvel&family=Rajdhani&family=Roboto&display=swap" rel="stylesheet">
+     <title>"Servicio Nacional de la Mujer y la Equidad de Género"</title>  
   </head>
-  <body>
-    
-      <section>
+
+  <body>   
+       <section>
+          <div class=content>
         <h1 id=titular>Cifrado César</h1>
-        <header class=texto>
+          </div>
+      
+          <div>
+          <header class=texto>
           Si te encuentras en alguna situación de violencia intrafamiliar y por diferentes razones no puedes hacer tu denuncia, escribe tu mensaje en el siguiente recuadro. 
           <p>Envía el mensaje codificado de esta página a través de MMS o Whatsapp al 133, 134 o al 1455.</p> 
           <p>Nos contactaremos a la brevedad contigo.</p>
         </header>
-        <article>
-          <p><textarea >Escribe aquí tu mensaje a codificar:</textarea></p>
-        </article>
-        <div>
-
         </div>
-        <div>
+        
+        <article>
+          <div>
+            <p><input type="text" id="message" placeholder="Ingrese su texto" ></p>
+          </div>
           
-        </div>
-        <article>
-          <p><textarea>Aquí verás el texto codificado</textarea></p>
+            
+          <div class=encode> 
+            <input type="button" id="btn-encode" value="Codificar" onclick="Codificar()">
+            </div></br>
+
+          <div>
+            <p><input type="number" id="offset" name="desplazamiento" placeholder="N° de desplazamiento"></p>
+          </div>
+
+        </article>
+          <div> 
+            <p><input type="button" id="btn-decode" value="Decodificar" onclick="Decodificar()"></p>
+          </div>
+        <article> 
+          <p><input type="text" id="results" name="" placeholder="Resultado"></p>
         </article>
       </section>
-      <footer>
+      
+      <footer> 
         Servicio Nacional de la Mujer y la Equidad de Género. <br>
         2021
       </footer>
