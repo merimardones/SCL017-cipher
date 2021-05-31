@@ -33,7 +33,7 @@ describe('cipher', () => {
     //
     // [Español]
     // Si decides agregar soporte para minúsculas descomenta el test a
-    // continuación.
+    //continuación.
     //
     // [Português]
     // Se quiser adicionar testes para letras minúsculas, descomente o teste

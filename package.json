@@ -22,5 +22,20 @@
     "jest": "^26.6.1",
     "opener": "^1.5.1",
     "serve": "^11.0.0"
-  }
+  },
+  "description": "* [1. Preámbulo](#1-preámbulo)\r * [2. Resumen del proyecto](#2-resumen-del-proyecto)\r * [3. Criterios de aceptación mínimos del proyecto](#3-criterios-de-aceptación-mínimos-del-proyecto)\r * [4. Criterios de aceptación adicionales](#4-criterios-de-aceptación-adicionales)\r * [5. Objetivos de aprendizaje](#5-objetivos-de-aprendizaje)\r * [6. Recomendaciones generales](#6-recomendaciones-generales)\r * [7. Recursos y temas relacionados](#7-recursos-y-temas-relacionados)\r * [8. Checklist](#8-checklist)",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merimardones/SCL017-cipher.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/merimardones/SCL017-cipher/issues"
+  },
+  "homepage": "https://github.com/merimardones/SCL017-cipher#readme"
 }

@@ -3,50 +3,44 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css" />  
-    <link href="https://fonts.googleapis.com/css2?family=Marvel&family=Rajdhani&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
      <title>"Servicio Nacional de la Mujer y la Equidad de Género"</title>  
   </head>
 
   <body>   
-       <section>
-          <div class=content>
-        <h1 id=titular>Cifrado César</h1>
-          </div>
-      
-          <div>
-          <header class=texto>
-          Si te encuentras en alguna situación de violencia intrafamiliar y por diferentes razones no puedes hacer tu denuncia, escribe tu mensaje en el siguiente recuadro. 
-          <p>Envía el mensaje codificado de esta página a través de MMS o Whatsapp al 133, 134 o al 1455.</p> 
-          <p>Nos contactaremos a la brevedad contigo.</p>
-        </header>
-        </div>
-        
+       <header>
+         <section>
+          <h1> CÓDIGO FAMILIA</h1>
+         </section>
+       </header>
+             
         <article>
           <div>
-            <p><input type="text" id="message" placeholder="Ingrese su texto" ></p>
+            <textarea id="messageIn" rows="20" cols="30" placeholder="Ingresa tu mensaje"></textarea>
           </div>
           
-            
-          <div class=encode> 
-            <input type="button" id="btn-encode" value="Codificar" onclick="Codificar()">
-            </div></br>
-
-          <div>
-            <p><input type="number" id="offset" name="desplazamiento" placeholder="N° de desplazamiento"></p>
+          <div >
+            <input type="number" id="offset"  placeholder="Muéveme">
           </div>
 
-        </article>
+          
           <div> 
-            <p><input type="button" id="btn-decode" value="Decodificar" onclick="Decodificar()"></p>
+            <button type="button" id="coding"> Codificar</button>
+          </div>                      
+                
+          <div> 
+            <button type="button" id="decoding">Decodificar </button>
           </div>
-        <article> 
-          <p><input type="text" id="results" name="" placeholder="Resultado"></p>
+      
+          <textarea  id="messageOut"  rows="20" cols="30" placeholder="Resultados"></textarea>
         </article>
       </section>
       
       <footer> 
-        Servicio Nacional de la Mujer y la Equidad de Género. <br>
-        2021
+        <img src="visual/logo.jpg">
+        <div id="textFooter">
+          Envíanos tu mensaje codificado al sitio: sernameg.gob.cl
+        </div>
       </footer>
    
     <script src="index.js" type="module"></script>
